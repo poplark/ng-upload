@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --color",
-    "auto": "webpack --color --watch"
+    "autobuild": "webpack --color --watch"
   },
   "repository": {
     "type": "git",

@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 
 import { RootComponent } from './components/root';
+import { Upload } from '../src/index.js';
 
 @NgModule({
   imports: [
@@ -20,6 +21,7 @@ import { RootComponent } from './components/root';
   ],
   declarations: [
     RootComponent,
+    Upload,
    ],
   providers: [],
   bootstrap: [ RootComponent ]
