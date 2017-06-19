@@ -1,3 +1,3 @@
-<div ngUpload class="test">
+<div ngUpload class="test" (onReady)="onReady($event)" (onStart)="onStart($event)" [headers]="headers">
   hello
 </div>
